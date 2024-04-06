@@ -31,7 +31,7 @@ public class GridMaker : MonoBehaviour
         {
             for (int j = 0; j < gridSize; j++)
             {
-                terrain[i, j] = (char)UnityEngine.Random.Range(49, 58);
+                terrain[i, j] = (char)UnityEngine.Random.Range(49, 49); // 49, 58
             }
         }
 
